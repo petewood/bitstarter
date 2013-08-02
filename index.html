@@ -90,11 +90,21 @@
       font-family: Arvo;
       font-size:110px;
       font-weight: bold;
-      line-height:78px;
+      line-height:88px;
       <!-- text-align: right; -->
       }
       quote, h1, h2 {
-      color: LimeGreen; //lime
+      color: LimeGreen;
+      }
+      h1 {
+      text-align: center;
+      }
+      h2 {
+      text-align: left;
+      }
+      quote {
+      text-align: right;
+      display: block;
       }
     </style>
   </head>
@@ -132,54 +142,64 @@
 	</div>
       </div>
       <div class="row-fluid pitch">
-	<div class="span5 offset1 video">
-	  <img src="http://static.tumblr.com/9iyqwfi/xmfm72jga/header_white.png">
-	  <!-- <img class="img-polaroid" src="http://placehold.it/480x300"> -->
+	<div class="span5 offset1 asset">
+	  <quote>dig deep</quote>
+
+	  <!-- <img src="http://static.tumblr.com/9iyqwfi/xmfm72jga/header_white.png"> -->
+	  <!-- <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300"> -->
 	</div>
 
 	<div class="span5 actions">
-	  <div class="span8 offset2">
-	    <div class="statistics">
-	      <div class="span4">
-		<div class="linediv-l">
-		  <h3>2</h3> <p>backers</p>
+	  <div class="row-fluid">
+	    <div class="span8 offset2">
+	      <div class="row-fluid statistics">
+		<div class="span4">
+		  <div class="linediv-l">
+		    <h3>2</h3> <p>backers</p>
+		  </div>
 		</div>
-	      </div>
-	      <div class="span4">
-		<div class="linediv-c">
-		  <h3>$100</h3> <p>of $10,000</p>
+		<div class="span4">
+		  <div class="linediv-c">
+		    <h3>$100</h3> <p>of $10,000</p>
+		  </div>
 		</div>
-	      </div>
-	      <div class="span4">
-		<div class="linediv-r">
-		  <h3>15</h3> <p>days left</p>
+		<div class="span4">
+		  <div class="linediv-r">
+		    <h3>15</h3> <p>days left</p>
+		  </div>
 		</div>
 	      </div>
 	    </div>
-	  </div>
-	  <div class="span10 offset1">
-	    <div class="thermometer progress active">
-	      <div class="bar bar-success" style="width: 1%;"></div>
-	      <div class="bar bar-warning" style="width: 99%;"></div>
+	    <div class="row-fluid">
+	      <div class="span10 offset1">
+		<div class="thermometer progress active">
+		  <div class="bar bar-success" style="width: 1%;"></div>
+		  <div class="bar bar-warning" style="width: 99%;"></div>
+		</div>
+	      </div>
 	    </div>
-	  </div>
-	  <div class="span6 offset3 order">
-	    <button class="btn btn-success btn-large">Preorder</button>
-	  </div>
-	  <div class="span8 offset2 social">
-	    <button class="btn btn-twitter"><i class="icon-twitter"> | Twitter</i></button>
-	    <button class="btn btn-facebook"><i class="icon-facebook"> | Facebook</i></button>
+	    <div class="row-fluid">
+	      <div class="span6 offset3 order">
+		<button class="btn btn-success btn-large">Preorder</button>
+	      </div>
+	    </div>
+	    <div class="row-fluid">
+	      <div class="span8 offset2 social">
+		<button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
+		<button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+	      </div>
+	    </div>
 	  </div>
 	</div>
       </div>
 
       <div class="row-fluid section1">
 	<div class="span5 offset1 asset">
-	  <quote>dig deep</quote>
-	  <!-- <img class="img-polaroid" src="http://placehold.it/480x300"> -->
+	  <quote>don't be afraid</quote>
+	  <!-- <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300"> -->
 	</div>
 	<div class="span5 copy">
-	  <h2>find your values</h2>
+	  <h2>be principled</h2>
 	  <p>
 	    Rootle is a simple tool to help organise your thoughts
 	    when trying to understand root causes. It can be used
@@ -202,10 +222,13 @@
 	    correct their decisions and actions, and achieve their
 	    goals.
 	  </p>
+	  <p>
+	    Rootle helps us build a catalogue of practices or mitigations which are related to base principles and values.
+	  </p>
 	</div>
 	<div class="span5 asset">
 	  <quote>make new mistakes</quote>
-	  <!-- <img class="img-polaroid" src="http://placehold.it/480x300"> -->
+	  <!-- <img class="img-polaroid" alt="Placeholder" src="http://placehold.it/480x300"> -->
 	</div>
       </div>
 
@@ -230,7 +253,7 @@
 	      <div class="accordion-heading">
 		<a class="accordion-toggle" data-toggle="collapse"
 		   data-parent="#accordion2" href="#collapseTwo">
-		  What's a frequently asked question?
+		  What's a Frequently Asked Question?
 		</a>
 	      </div>
 	      <div id="collapseTwo" class="accordion-body collapse">
